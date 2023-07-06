@@ -15,6 +15,7 @@ The Sui platform is built on Sui Move, which is derived from the core [Move](htt
 - [Books](#books)
 - [Tutorials](#tutorials)
 - [Community](#community)
+- [Products](#products)
 - [Code](#code)
   - [Fungible Tokens](#fungible-tokens)
   - [Non-Fungible Tokens](#non-fungible-tokens)
@@ -26,7 +27,6 @@ The Sui platform is built on Sui Move, which is derived from the core [Move](htt
   - [Accounts](#accounts)
   - [Frameworks](#frameworks)
   - [Libraries](#libraries)
-  - [Miscellaneous](#miscellaneous)
 - [Tools](#tools)
 - [IDEs](#ides)
 - [Package Managers](#package-managers)
@@ -64,6 +64,20 @@ The Sui platform is built on Sui Move, which is derived from the core [Move](htt
 - [Move Language Discord](https://discord.gg/cPUmhe24Mz)
 - [Move @ Sui by Mysten Labs Discord](https://discord.gg/sui)
 
+## Products
+
+Products support sui
+
+### Defi
+
+- [Centus](https://app.cetus.zone/)
+- [Turbos](https://app.turbos.finance/)
+- [Omnibtc](https://app.omnibtc.finance/swap)
+
+### Non Fungible Tokens
+
+- [Clutchy](https://clutchy.io/)
+- [Keepsake](https://keepsake.gg/)
 ## Code
 
 Code written in Move.
@@ -80,19 +94,19 @@ Code written in Move.
 - [Suia](https://github.com/Mynft/suia) - The first POAP application on Sui.
 
 ### Decentralized Identity
-- [aptos-cid](https://github.com/coming-chat/aptos-cid) - Decentralized identity on Aptos, the underlying account system of ComingChat.
+
 - [MoveDID](https://github.com/NonceGeek/MoveDID) - MoveDID is a DID protocol that compatible with Move-based blockchain networks, including Aptos, Sui, and Starcoin. Maintained by the [NonceGeek](https://github.com/NonceGeek).
 
 
 ### DeFi
 
 - [DeFi examples](https://github.com/MystenLabs/sui/tree/main/sui_programmability/examples/defi) - Multiple DeFi example implementations from Sui.
-- [CoinSwap](https://github.com/move-language/move/tree/main/language/documentation/examples/experimental/coin-swap) - A toy implementation of a [Uniswap](https://uniswap.org/)-like liquidity pool containing two tokens.
-- [Offer](https://github.com/move-language/move/blob/main/language/move-stdlib/nursery/sources/offer.move) - Generic implementation of atomic swaps for any pair of assets.
 - [SuiRedPacket](https://github.com/coming-chat/sui-red-packet) - A red packet social app that combines private chat and encrypted wallet on Sui.
 - [SuiAMMswap](https://github.com/OmniBTC/Sui-AMM-swap) - Sui AMM Swap implemented by the OmniBTC team.
 - [DolaProtocol](https://github.com/OmniBTC/DolaProtocol) - A Decentralized Omnichain Liquidity Aggregation Protocol with the single coin pool of each public chain as the core, Wormhole, Layerzero and other cross-chain messaging protocols as the bridge, and Sui public chain as the settlement center.
 - [ObjectMarket](https://github.com/coming-chat/object-market) - A unique object trading marketplace in the Sui network.
+- [CoinSwap](https://github.com/move-language/move/tree/main/language/documentation/examples/experimental/coin-swap) - A toy implementation of a [Uniswap](https://uniswap.org/)-like liquidity pool containing two tokens.
+- [Offer](https://github.com/move-language/move/blob/main/language/move-stdlib/nursery/sources/offer.move) - Generic implementation of atomic swaps for any pair of assets.
 
 ### SocialFi
 - [Dmens](https://github.com/coming-chat/Dmens) - Decentralized Moments which is a Blockchain Twitter Protocol built on the Sui network.
@@ -112,14 +126,10 @@ TBA
 ### Frameworks
 
 A Move **framework** is the set of Move modules included in the genesis state of the chain. 
-These modules typically implement key concepts like accounts, currencies, . 
+These modules typically implement key concepts like accounts, currencies. 
 The ability to separate blockchain-specific framework logic from the generic functionality of the Move language is a key part of Move's platform-agnostic design.
 
 - [Sui Framework](https://github.com/MystenLabs/sui/tree/main/crates/sui-framework)
-- [Aptos Framework](https://github.com/aptos-labs/aptos-core/tree/main/aptos-move/framework)
-- [0L Framework](https://github.com/OLSF/libra/tree/main/language/diem-framework/modules/0L)
-- [Starcoin Framework](https://github.com/starcoinorg/starcoin-framework)
-- [Diem Framework](https://github.com/diem/diem/tree/main/diem-move/diem-framework/DPN)
 
 ### Libraries
 
@@ -131,45 +141,27 @@ The ability to separate blockchain-specific framework logic from the generic fun
 - [Vault](https://github.com/move-language/move/blob/main/language/move-stdlib/nursery/sources/vault.move) - Library for capabilities. From the nursery.
 - [ACL](https://github.com/move-language/move/blob/main/language/move-stdlib/nursery/sources/acl.move) - Library for list-based access control. From the nursery.
 - [TaoHe](https://github.com/taoheorg/taohe) - A collection of nestable Move resources.
-- [Starcoin Framework Commons](https://github.com/starcoinorg/starcoin-framework-commons) - Libraries for Move commons utility on starcoin-framework. From Starcoin.
 - [Movemate](https://github.com/pentagonxyz/movemate) - Smart contract building blocks for Aptos and Sui (Math utilities, governance contracts, escrow, and more). Maintained by the Pentagon team.
 - [Move cron parser](https://github.com/snowflake-so/move-cron-parser#readme) - Library is built for a purpose of parsing cron expression. Maintained by Snowflake Network team.
 
-### Miscellaneous
-
-- [Move-on-EVM](https://github.com/move-language/move/tree/main/language/evm) - Experimental project to compile Move source code to EVM bytecode.
-- [aoc-move](https://github.com/whonore/aoc-move) - Advent of Code solutions in Move with some formal verification.
-
 ## Tools
 
-- [Move Package Manager](https://github.com/move-language/move/tree/main/language/tools/move-cli) - Like `cargo` or `npm` for Move: single CLI (and corresponding Rust API's for other tools to hook into) for building, running, testing, debugging, and verifying Move [packages](https://move-language.github.io/move/). Maintained by the Move core team.
-- [Move Prover](https://github.com/move-language/move/tree/main/language/move-prover) - Formal verification of user-defined specifications written in Move source code. Maintained by the Move core team.
-- [Move Read/Write Set Analyzer](https://github.com/move-language/move/tree/main/language/tools/read-write-set) - Static analysis tool for computing an overapproximation of the global memory touched by a Move program. Maintained by the Move core team.
 - [Move Playground JS Library](https://github.com/imcoding-online/js-move-playground) - Wrapping [Move Playground by Pontem](https://playground.pontem.network/) as a JavaScript library for browser. You can use it to build your own Move Playground.
 - [go-sui-indexer](https://github.com/coming-chat/go-sui-indexer) - An off-fullnode service to serve data from Sui Node.
 
 ## IDEs
 
-- [Move VS Code plugin](https://marketplace.visualstudio.com/items?itemName=move.move-analyzer) - Maintained by the Move core team ([source code](https://github.com/move-language/move/tree/main/language/move-analyzer)).
-- [Move IntelliJ plugin](https://plugins.jetbrains.com/plugin/14721-move-language) - Maintained by the Pontem team ([source code](https://github.com/pontem-network/intellij-move)).
-- [Move Playground](https://playground.pontem.network/) - Like [Remix](https://remix.ethereum.org/) for Move. Alpha version of a Web IDE. See [instructions](https://gist.github.com/borispovod/64b6d23741d8c1f4b0b958a3a74aa68d). Maintained by the Pontem team.
-- [Starcoin IDE](https://marketplace.visualstudio.com/items?itemName=starcoinorg.starcoin-ide) - Maintained by the Starcoin team ([source code](https://github.com/starcoinorg/starcoin-ide)).
-- [Move Vim](https://github.com/rvmelkonian/move.vim) - Maintained by [@rvmelkonian](https://github.com/rvmelkonian/).
-- [move-mode](https://github.com/amnn/move-mode) - Major mode for Emacs maintained by [@amnn](https://github.com/amnn/).
+TBA
 
 ## Package Managers
 - [Movey](https://www.movey.net/) - A crates.io-style repository of Move packages.
 
 ## Wallets
 
-- [StarMask](https://github.com/starcoinorg/starmask-extension) - A wallet for the Starcoin blockchain. Maintained by the Starcoin team ([Chrome Webstore](https://chrome.google.com/webstore/detail/starmask/mfhbebgoclkghebffdldpobeajmbecfk?hl=en)).
 - [Sui Wallet](https://github.com/MystenLabs/sui/tree/main/apps/wallet) - A chrome (v88+) extension wallet for Sui ([Chrome Webstore](https://chrome.google.com/webstore/detail/sui-wallet/opcgpfmipidbgpenhmajoajpbobppdil)).
-- [Pontem Wallet](https://github.com/pontem-network/pontem-wallet) - Wallet extension for Aptos network by the Pontem team ([Chrome Webstore](https://chrome.google.com/webstore/detail/pontem-wallet/phkbamefinggmakgklpkljjmgibohnba)).
-- [Fewcha Aptos Wallet](https://github.com/fewcha-wallet/fewcha.app) - The wallet of layer 1 blockchain Aptos ([Chrome Webstore](https://chrome.google.com/webstore/detail/fewcha-aptos-wallet/ebfidpplhabeedpnhjnobghokpiioolj)).
-- [bcs-js](https://github.com/pontem-network/lcs-js) - JavaScript implementation of the [BCS](https://github.com/diem/bcs) serialization scheme used by Move, may be useful for implementing wallets.
-- [ComingChat](https://coming.chat/) - A decentralized social finance/web3 portal.  Supporting public chain wallets, such as Sui and Aptos wallets.
 - [Suiet Wallet](https://github.com/suiet/suiet) - A open-source wallet for Sui. ([Chrome Webstore](https://chrome.google.com/webstore/detail/suiet/khpkpbbcccdmmclmpigdgddabeilkdpd), [Website](https://suiet.app)) 
 - [Ethos Wallet](https://github.com/EthosWallet/chrome-extension) - Open-source chrome extension wallet for Sui ([Chrome Webstore](https://chrome.google.com/webstore/detail/ethos-sui-wallet/mcbigmjiafegjnnogedioegffbooigli), [Website](https://ethoswallet.xyz/)).
+- [ComingChat](https://coming.chat/) - A decentralized social finance/web3 portal.  Supporting public chain wallets, such as Sui and Aptos wallets.
 
 ### Wallet Adapters
 
@@ -196,9 +188,6 @@ The ability to separate blockchain-specific framework logic from the generic fun
 ### Sui Dapps SDKs
 - [OmniSwap-Sui-SDK](https://github.com/OmniBTC/OmniSwap-Sui-SDK) (community)
 
-### Other network SDKs
-- [Aptos Golang SDK](https://github.com/coming-chat/go-aptos-sdk) (community)
-
 ## Papers
 
 ### Language Design
@@ -219,7 +208,6 @@ The ability to separate blockchain-specific framework logic from the generic fun
 
 - [The Move Programming Language](https://youtu.be/J1U_0exNFu0)
 - [Move on Sui](https://www.youtube.com/watch?v=xMsE1X4wio4)
-- [Move on Aptos](https://www.youtube.com/watch?v=gvRJdJTQd8U)
 - [Move: A Safe Language for Programming with Money](https://www.youtube.com/watch?v=EG2-7bQNPv4&ab_channel=FieldsInstitute) - Talk from [@sblackshear](https://github.com/sblackshear) at the [Fields Institute Blockchain](http://www.fields.utoronto.ca/activities/seminar_series/blockchain-research-seminar-series) research seminar series.
 - [Formal Verification of Move Programs for the Libra Blockchain](http://www.fields.utoronto.ca/talks/Formal-verification-Move-programs-Libra-blockchain) - Talk from [@DavidLDill](https://github.com/DavidLDill) at the [Fields Institute Blockchain](http://www.fields.utoronto.ca/activities/seminar_series/blockchain-research-seminar-series) research seminar series.
 - [Move for the Masses](https://www.youtube.com/watch?v=b_2jZ4YEfWc) - Talk at the [Converge '22](https://converge.circle.com/event/4ea0d06f-3900-4b6d-a9cd-aeaedda9ef2e/summary).
