@@ -1,4 +1,5 @@
 <!--lint disable double-link-->
+
 # Awesome Sui [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A curated list of code and content from the [Sui](https://sui.io) community.
@@ -7,7 +8,7 @@ Sui is an innovative, decentralized Layer 1 blockchain that redefines asset owne
 
 Sui (swē) is the water element in Japanese philosophy. The power of the sui element lies in its fluidity—its ability to easily adapt to and transform any environment. Similarly, the Sui platform seeks to provide a flexible network that you can leverage to shape the web3 landscape.
 
-The Sui platform is built on Sui Move, which is derived from the core [Move](https://github.com/MystenLabs/awesome-move) programming language. 
+The Sui platform is built on Sui Move, which is derived from the core [Move](https://github.com/MystenLabs/awesome-move) programming language.
 
 ## Contents
 
@@ -77,7 +78,15 @@ Products support sui
 ### Non Fungible Tokens
 
 - [Clutchy](https://clutchy.io/)
+- [Souffl3](https://souffl3.com/)
 - [Keepsake](https://keepsake.gg/)
+- [BlueMove](https://sui.bluemove.net/)
+- [Hyperspace](https://sui.hyperspace.xyz/)
+
+### Explorer
+
+- [SuiScan](https://suiscan.xyz/mainnet/home)
+
 ## Code
 
 Code written in Move.
@@ -97,7 +106,6 @@ Code written in Move.
 
 - [MoveDID](https://github.com/NonceGeek/MoveDID) - MoveDID is a DID protocol that compatible with Move-based blockchain networks, including Aptos, Sui, and Starcoin. Maintained by the [NonceGeek](https://github.com/NonceGeek).
 
-
 ### DeFi
 
 - [DeFi examples](https://github.com/MystenLabs/sui/tree/main/sui_programmability/examples/defi) - Multiple DeFi example implementations from Sui.
@@ -109,6 +117,7 @@ Code written in Move.
 - [Offer](https://github.com/move-language/move/blob/main/language/move-stdlib/nursery/sources/offer.move) - Generic implementation of atomic swaps for any pair of assets.
 
 ### SocialFi
+
 - [Dmens](https://github.com/coming-chat/Dmens) - Decentralized Moments which is a Blockchain Twitter Protocol built on the Sui network.
 
 ### On-Chain Governance
@@ -125,8 +134,8 @@ TBA
 
 ### Frameworks
 
-A Move **framework** is the set of Move modules included in the genesis state of the chain. 
-These modules typically implement key concepts like accounts, currencies. 
+A Move **framework** is the set of Move modules included in the genesis state of the chain.
+These modules typically implement key concepts like accounts, currencies.
 The ability to separate blockchain-specific framework logic from the generic functionality of the Move language is a key part of Move's platform-agnostic design.
 
 - [Sui Framework](https://github.com/MystenLabs/sui/tree/main/crates/sui-framework)
@@ -154,14 +163,15 @@ The ability to separate blockchain-specific framework logic from the generic fun
 TBA
 
 ## Package Managers
+
 - [Movey](https://www.movey.net/) - A crates.io-style repository of Move packages.
 
 ## Wallets
 
 - [Sui Wallet](https://github.com/MystenLabs/sui/tree/main/apps/wallet) - A chrome (v88+) extension wallet for Sui ([Chrome Webstore](https://chrome.google.com/webstore/detail/sui-wallet/opcgpfmipidbgpenhmajoajpbobppdil)).
-- [Suiet Wallet](https://github.com/suiet/suiet) - A open-source wallet for Sui. ([Chrome Webstore](https://chrome.google.com/webstore/detail/suiet/khpkpbbcccdmmclmpigdgddabeilkdpd), [Website](https://suiet.app)) 
+- [Suiet Wallet](https://github.com/suiet/suiet) - A open-source wallet for Sui. ([Chrome Webstore](https://chrome.google.com/webstore/detail/suiet/khpkpbbcccdmmclmpigdgddabeilkdpd), [Website](https://suiet.app))
 - [Ethos Wallet](https://github.com/EthosWallet/chrome-extension) - Open-source chrome extension wallet for Sui ([Chrome Webstore](https://chrome.google.com/webstore/detail/ethos-sui-wallet/mcbigmjiafegjnnogedioegffbooigli), [Website](https://ethoswallet.xyz/)).
-- [ComingChat](https://coming.chat/) - A decentralized social finance/web3 portal.  Supporting public chain wallets, such as Sui and Aptos wallets.
+- [ComingChat](https://coming.chat/) - A decentralized social finance/web3 portal. Supporting public chain wallets, such as Sui and Aptos wallets.
 
 ### Wallet Adapters
 
@@ -176,6 +186,7 @@ TBA
 ## SDKs
 
 ### Sui SDKs
+
 - [Rust SDK](https://docs.sui.io/devnet/build/rust-sdk) (official)
 - [TS/JS SDK](https://github.com/MystenLabs/sui/tree/main/sdk/typescript) (official)
 - [Golang SDK 1](https://github.com/coming-chat/go-sui-sdk) (community)
@@ -186,6 +197,7 @@ TBA
 - [C# SDK](https://github.com/naami-finance/SuiNet) (community)
 
 ### Sui Dapps SDKs
+
 - [OmniSwap-Sui-SDK](https://github.com/OmniBTC/OmniSwap-Sui-SDK) (community)
 
 ## Papers
@@ -213,6 +225,7 @@ TBA
 - [Move for the Masses](https://www.youtube.com/watch?v=b_2jZ4YEfWc) - Talk at the [Converge '22](https://converge.circle.com/event/4ea0d06f-3900-4b6d-a9cd-aeaedda9ef2e/summary).
 
 ## Slides
+
 - [Move deep dive](https://docs.google.com/presentation/d/1Tb2iZD0xrQSlwXIJNL1djNYc0_p0szfB2STgURgHgls/edit?usp=sharing)
 - [Move overview](https://docs.google.com/presentation/d/1gU-M42Juz7ARc61unPXphJ_BX1OlQrBwR1VdaPT4M5w/edit?usp=sharing) - Slides from [Reasoning About Financial Systems](https://reasoningaboutfinancialsystems.org/) workshop at [SBC '22](https://cbr.stanford.edu/sbc22/).
 
@@ -222,11 +235,13 @@ TBA
 - [Move AMA covering Move origin story](https://twitter.com/i/spaces/1jMKgepNOleJL)
 
 ## Blog Posts
+
 - [Comparing Move and Rust smart contract development](https://medium.com/@kklas/smart-contract-development-move-vs-rust-4d8f84754a8f)
 - [Comparing Diem-style Move and Sui Move](https://sui.io/resources-move/why-we-created-sui-move)
 
 ## Security
-- [Aptos-movevm Denial of Service Vulnerability](https://medium.com/numen-cyber-labs/analysis-of-the-first-critical-0-day-vulnerability-of-aptos-move-vm-8c1fd6c2b98e)
+
+- [SUI OBJECTS-SECURITY PRINCIPLES AND BEST PRACTICES](https://www.movebit.xyz/blog/post/Sui-Objects-Security-Principles-and-Best-Practices.html)
 
 ## Contributing
 
