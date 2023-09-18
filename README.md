@@ -71,9 +71,19 @@ Products support sui
 
 ### Defi
 
+- [Bucket Protocol](https://app.bucketprotocol.io/)
 - [Centus](https://app.cetus.zone/)
-- [Turbos](https://app.turbos.finance/)
 - [Omnibtc](https://app.omnibtc.finance/swap)
+- [Navi](https://app.naviprotocol.io/)
+- [Scallop](https://app.scallop.io/)
+- [Turbos](https://app.turbos.finance/)
+
+### MEV SDKs
+
+- [cetus-clmm-sui-sdk](https://github.com/CetusProtocol/cetus-clmm-sui-sdk)
+- [sui-scallop-sdk](https://github.com/scallop-io/sui-scallop-sdk)
+- [OmniSwap-Sui-SDK](https://github.com/OmniBTC/OmniSwap-Sui-SDK)
+- [Kana Labs](https://docs.kanalabs.io/getting-started/welcome-to-kana-labs)
 
 ### Non Fungible Tokens
 
