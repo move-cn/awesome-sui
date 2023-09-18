@@ -71,6 +71,7 @@ Products support sui
 
 ### Defi
 
+- [Bucket Protocol](https://app.bucketprotocol.io/)
 - [Centus](https://app.cetus.zone/)
 - [Omnibtc](https://app.omnibtc.finance/swap)
 - [Navi](https://app.naviprotocol.io/)
