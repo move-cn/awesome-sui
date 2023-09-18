@@ -71,8 +71,10 @@ Products support sui
 
 ### Defi
 
+- [AfterMath](https://aftermath.finance/trade)
 - [Bucket Protocol](https://app.bucketprotocol.io/)
 - [Centus](https://app.cetus.zone/)
+- [Interest Protocol](https://www.interestprotocol.com/dapp/swap)
 - [Omnibtc](https://app.omnibtc.finance/swap)
 - [Navi](https://app.naviprotocol.io/)
 - [Scallop](https://app.scallop.io/)
