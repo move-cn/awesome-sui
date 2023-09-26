@@ -97,7 +97,9 @@ Products support sui
 
 ### Explorer
 
+- [Sui Explorer](https://suiexplorer.com/) (official)
 - [SuiScan](https://suiscan.xyz/mainnet/home)
+- [SuiVision](https://suivision.xyz/)
 
 ## Code
 
@@ -117,6 +119,7 @@ Code written in Move.
 ### Decentralized Identity
 
 - [MoveDID](https://github.com/NonceGeek/MoveDID) - MoveDID is a DID protocol that compatible with Move-based blockchain networks, including Aptos, Sui, and Starcoin. Maintained by the [NonceGeek](https://github.com/NonceGeek).
+- [Polymedia Profile](https://github.com/juzybits/polymedia-profile) - A system that lets users associate a profile (name, picture, etc) to their Sui address. Maintained by [@juzybits](https://github.com/juzybits).
 
 ### DeFi
 
