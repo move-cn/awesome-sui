@@ -47,6 +47,25 @@ The Sui platform is built on Sui Move, which is derived from the core [Move](htt
 - [Installation](https://github.com/move-language/move/tree/main/language/tools/move-cli#installation)
 - [Problem Statement](https://github.com/mystenlabs/awesome-move/blob/main/docs/problem_statement.md#problem-statement)
 
+
+## Official github 
+- [mystenlabs](https://github.com/mystenlabs)
+- [Sui Foundation](https://github.com/sui-foundation)
+- [Sui](https://github.com/mystenlabs/sui)
+- [move-language](https://github.com/move-language/move)
+
+# Official Community
+- [Website](https://sui.io)
+- [Discord](https://discord.gg/sui)
+- [Discord | Mysten Labs](https://discord.com/mysten)
+- [Twitter](https://twitter.com/SuiNetwork) 
+- [Twitter | SuiFoundation](https://twitter.com/SuiFoundation)
+- [Twitter | Chinese 中文](https://twitter.com/SuiFoundation)
+- [Twitter | Mysten Labs](https://twitter.com/Mysten_Labs)
+- [Telegram | English](https://t.me/Sui_Blockchain_English)
+- [Telegram | Chinese 中文](https://t.me/Sui_Blockchain_Chinese)
+- [Telegram | Chinese 中文开发者社区](https://t.me/sui_dev_cn)
+
 ## Books
 
 - [Sui Move by Example](https://examples.sui.io/) - A book on the Sui Move variant maintained by [@MystenLabs](https://github.com/MystenLabs).
@@ -60,10 +79,42 @@ The Sui platform is built on Sui Move, which is derived from the core [Move](htt
 - [Implementing, testing, and verifying a fungible token](https://github.com/move-language/move/tree/main/language/documentation/tutorial) - Maintained by the Move core team.
 - [Move Language](https://imcoding.online/courses/move-language) - Interactive Move language course, free for everyone, maintained by [imcoding.online](https://imcoding.online) ([中文](https://imcoding.online/courses/move-language?lng=zh)).
 
-## Community
 
-- [Move Language Discord](https://discord.gg/cPUmhe24Mz)
-- [Move @ Sui by Mysten Labs Discord](https://discord.gg/sui)
+
+## Wallets
+
+- [Sui Wallet](https://github.com/MystenLabs/sui/tree/main/apps/wallet) - A chrome (v88+) extension wallet for Sui ([Chrome Webstore](https://chrome.google.com/webstore/detail/sui-wallet/opcgpfmipidbgpenhmajoajpbobppdil)).
+- [Suiet Wallet](https://github.com/suiet/suiet) - A open-source wallet for Sui. ([Chrome Webstore](https://chrome.google.com/webstore/detail/suiet/khpkpbbcccdmmclmpigdgddabeilkdpd), [Website](https://suiet.app))
+- [Ethos Wallet](https://github.com/EthosWallet/chrome-extension) - Open-source chrome extension wallet for Sui ([Chrome Webstore](https://chrome.google.com/webstore/detail/ethos-sui-wallet/mcbigmjiafegjnnogedioegffbooigli), [Website](https://ethoswallet.xyz/)).
+- [Surf](https://github.com/EthosWallet/chrome-extension) - Open-source chrome extension wallet for Sui ([Chrome Webstore](https://chromewebstore.google.com/detail/surf-wallet/emeeapjkbcbpbpgaagfchmcgglmebnen), [Website](https://surf.tech/)).
+- [Okx Wallet](https://www.okx.com/web3)  ([Chrome Webstore](https://chromewebstore.google.com/detail/%E6%AC%A7%E6%98%93web3%E9%92%B1%E5%8C%85/mcohilncbfahbmgdjkbpemcciiolgcge), [Website](https://www.okx.com/web3)).
+- [ComingChat](https://coming.chat/) - A decentralized social finance/web3 portal. Supporting public chain wallets, such as Sui  wallets.
+
+### Wallet Adapters
+
+- [Sui Wallet](https://github.com/MystenLabs/sui/tree/main/sdk/wallet-adapter) - Sui Wallet Adapter.
+- [Suiet Wallet](https://github.com/suiet/wallet-adapter) - Suiet Wallet Adapter.
+
+### Wallet Kits
+
+- [Suiet Wallet Kit](https://github.com/suiet/wallet-kit) - A package support all Sui wallets with customizable UI.
+- [Ethos Connect](https://github.com/EthosWallet/ethos-connect) - UI with built-in wallet adapter and Email option for supporting all wallets and wallet-less users on Sui.
+
+## SDKs
+
+### Sui SDKs
+
+- [Rust SDK](https://docs.sui.io/devnet/build/rust-sdk) (official)
+- [TS/JS SDK](https://github.com/MystenLabs/sui/tree/main/sdk/typescript) (official)
+- [Sui Typescript SDK (community)](https://github.com/scallop-io/sui-kit)
+- [Golang SDK 1 by block vision](https://github.com/block-vision/sui-go-sdk) (community)
+- [Golang SDK 2 by coming chat](https://github.com/coming-chat/go-sui-sdk) (community)
+- [Python SDK](https://github.com/FrankC01/pysui) (community)
+- [Java SDK](https://github.com/GrapeBaBa/sui4j) (community)
+- [Kotlin SDK](https://github.com/cosmostation/suikotlin) (community)
+- [C# SDK](https://github.com/naami-finance/SuiNet) (community)
+- [Sui Dart SDK(community)](https://github.com/mofalabs/sui)
+
 
 ## Products
 
@@ -96,10 +147,10 @@ Products support sui
 - [Hyperspace](https://sui.hyperspace.xyz/)
 
 ### Explorer
-
 - [Sui Explorer](https://suiexplorer.com/) (official)
-- [SuiScan](https://suiscan.xyz/mainnet/home)
 - [SuiVision](https://suivision.xyz/)
+- [SuiScan](https://suiscan.xyz/mainnet/home)
+
 
 ## Code
 
@@ -118,7 +169,6 @@ Code written in Move.
 
 ### Decentralized Identity
 
-- [MoveDID](https://github.com/NonceGeek/MoveDID) - MoveDID is a DID protocol that compatible with Move-based blockchain networks, including Aptos, Sui, and Starcoin. Maintained by the [NonceGeek](https://github.com/NonceGeek).
 - [Polymedia Profile](https://github.com/juzybits/polymedia-profile) - A system that lets users associate a profile (name, picture, etc) to their Sui address. Maintained by [@juzybits](https://github.com/juzybits).
 
 ### DeFi
@@ -141,7 +191,7 @@ TBA
 
 ### Cross-Chain Bridge
 
-- [OmniBTC Bridge](https://github.com/OmniBTC/OmniBridge) - A bridge between Bitcoin and Move language public chains (like Aptos and Sui) based on ultra-light node.
+- [OmniBTC Bridge](https://github.com/OmniBTC/OmniBridge) - A bridge between Bitcoin and Move language public chains (like Sui) based on ultra-light node.
 
 ### Accounts
 
@@ -165,7 +215,7 @@ The ability to separate blockchain-specific framework logic from the generic fun
 - [Vault](https://github.com/move-language/move/blob/main/language/move-stdlib/nursery/sources/vault.move) - Library for capabilities. From the nursery.
 - [ACL](https://github.com/move-language/move/blob/main/language/move-stdlib/nursery/sources/acl.move) - Library for list-based access control. From the nursery.
 - [TaoHe](https://github.com/taoheorg/taohe) - A collection of nestable Move resources.
-- [Movemate](https://github.com/pentagonxyz/movemate) - Smart contract building blocks for Aptos and Sui (Math utilities, governance contracts, escrow, and more). Maintained by the Pentagon team.
+- [Movemate](https://github.com/pentagonxyz/movemate) - Smart contract building blocks for  Sui (Math utilities, governance contracts, escrow, and more). Maintained by the Pentagon team.
 - [Move cron parser](https://github.com/snowflake-so/move-cron-parser#readme) - Library is built for a purpose of parsing cron expression. Maintained by Snowflake Network team.
 
 ## Tools
@@ -181,35 +231,7 @@ TBA
 
 - [Movey](https://www.movey.net/) - A crates.io-style repository of Move packages.
 
-## Wallets
 
-- [Sui Wallet](https://github.com/MystenLabs/sui/tree/main/apps/wallet) - A chrome (v88+) extension wallet for Sui ([Chrome Webstore](https://chrome.google.com/webstore/detail/sui-wallet/opcgpfmipidbgpenhmajoajpbobppdil)).
-- [Suiet Wallet](https://github.com/suiet/suiet) - A open-source wallet for Sui. ([Chrome Webstore](https://chrome.google.com/webstore/detail/suiet/khpkpbbcccdmmclmpigdgddabeilkdpd), [Website](https://suiet.app))
-- [Ethos Wallet](https://github.com/EthosWallet/chrome-extension) - Open-source chrome extension wallet for Sui ([Chrome Webstore](https://chrome.google.com/webstore/detail/ethos-sui-wallet/mcbigmjiafegjnnogedioegffbooigli), [Website](https://ethoswallet.xyz/)).
-- [ComingChat](https://coming.chat/) - A decentralized social finance/web3 portal. Supporting public chain wallets, such as Sui and Aptos wallets.
-
-### Wallet Adapters
-
-- [Sui Wallet](https://github.com/MystenLabs/sui/tree/main/sdk/wallet-adapter) - Sui Wallet Adapter.
-- [Suiet Wallet](https://github.com/suiet/wallet-adapter) - Suiet Wallet Adapter.
-
-### Wallet Kits
-
-- [Suiet Wallet Kit](https://github.com/suiet/wallet-kit) - A package support all Sui wallets with customizable UI.
-- [Ethos Connect](https://github.com/EthosWallet/ethos-connect) - UI with built-in wallet adapter and Email option for supporting all wallets and wallet-less users on Sui.
-
-## SDKs
-
-### Sui SDKs
-
-- [Rust SDK](https://docs.sui.io/devnet/build/rust-sdk) (official)
-- [TS/JS SDK](https://github.com/MystenLabs/sui/tree/main/sdk/typescript) (official)
-- [Golang SDK 1](https://github.com/coming-chat/go-sui-sdk) (community)
-- [Golang SDK 2](https://github.com/block-vision/sui-go-sdk) (community)
-- [Python SDK](https://github.com/FrankC01/pysui) (community)
-- [Java SDK](https://github.com/GrapeBaBa/sui4j) (community)
-- [Kotlin SDK](https://github.com/cosmostation/suikotlin) (community)
-- [C# SDK](https://github.com/naami-finance/SuiNet) (community)
 
 ### Sui Dapps SDKs
 
