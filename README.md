@@ -16,16 +16,20 @@ The Sui platform is built on Sui Move, which is derived from the core [Move](htt
 - [Books](#books)
 - [Tutorials](#tutorials)
 - [Community](#community)
+- [Oracle](#oracle)
 - [RPC](#rpc)
   - [mainnet](#mainnet-rpc)
   - [testnet](#testnet-rpc)
   - [devnet](#devnet-rpc)
 - [Products](#products)
+- [DeFi](#defi)
+  - [lending](#lending)
+  - [swap](#swap)
+  - [other](#other-defi)
 - [Code](#code)
   - [Fungible Tokens](#fungible-tokens)
   - [Non-Fungible Tokens](#non-fungible-tokens)
   - [Decentralized Identity](#decentralized-identity)
-  - [DeFi](#defi)
   - [SocialFi](#socialfi)
   - [On-Chain Governance](#on-chain-governance)
   - [Cross-Chain Bridge](#cross-chain-bridge)
@@ -35,6 +39,7 @@ The Sui platform is built on Sui Move, which is derived from the core [Move](htt
 - [Tools](#tools)
 - [IDEs](#ides)
 - [Package Managers](#package-managers)
+- [Explorer](#Explorer)
 - [Wallets](#wallets)
 - [SDKs](#sdks)
 - [Papers](#papers)
@@ -83,7 +88,10 @@ The Sui platform is built on Sui Move, which is derived from the core [Move](htt
 - [Implementing, testing, and verifying a fungible token](https://github.com/move-language/move/tree/main/language/documentation/tutorial) - Maintained by the Move core team.
 - [Move Language](https://imcoding.online/courses/move-language) - Interactive Move language course, free for everyone, maintained by [imcoding.online](https://imcoding.online) ([中文](https://imcoding.online/courses/move-language?lng=zh)).
 
-
+### Explorer
+- [Sui Explorer](https://suiexplorer.com/) (official)
+- [SuiVision](https://suivision.xyz/)
+- [SuiScan](https://suiscan.xyz/mainnet/home)
 
 ## Wallets
 
@@ -119,6 +127,11 @@ The Sui platform is built on Sui Move, which is derived from the core [Move](htt
 - [C# SDK](https://github.com/naami-finance/SuiNet) (community)
 - [Sui Dart SDK(community)](https://github.com/mofalabs/sui)
 
+
+## oracle
+- [Pyth](https://pyth.network) offer developers permissionless access to price feeds for equities, commodities, foreign exchange pairs, and digital assets
+- [SupraOracles](https://supraoracles.com/) offers decentralized oracle services for applications on Sui. Developers can now seamlessly fetch, validate, and integrate off-chain data into their smart contracts,
+- [Mysten Oracles](https://mystenlabs.com/blog/simple-and-meta-oracles-on-sui) The former allows lower assurance values to be posted and read by contracts at a cheaper gas cost point than high-assurance oracles. Low assurance oracles are best used for applications with low risk and non-financial consequences such as in games.
 
 ## RPC
 
@@ -167,14 +180,30 @@ Products support sui
 
 ### Defi
 
+#### lending
+- [omnibtc](https://omnilending.omnibtc.finance/lending) |  [Code](https://github.com/OmniBTC/DolaProtocol/tree/main/sui)
+- [scallop](https://scallop.io) | [code](https://github.com/scallop-io/sui-lending-protocol)
+- [naviprotocol](https://app.naviprotocol.io)
+
+#### swap
+- [deep-book](https://sui-deepbook.com/)
+- [cetus](https://app.cetus.zone/) uni-v3
+- [turbos](https://app.turbos.finance) uni-v3
+- [Omnibtc](https://app.omnibtc.finance/swap) uvi-v2
 - [AfterMath](https://aftermath.finance/trade)
-- [Bucket Protocol](https://app.bucketprotocol.io/)
-- [Centus](https://app.cetus.zone/)
-- [Interest Protocol](https://www.interestprotocol.com/dapp/swap)
-- [Omnibtc](https://app.omnibtc.finance/swap)
-- [Navi](https://app.naviprotocol.io/)
-- [Scallop](https://app.scallop.io/)
-- [Turbos](https://app.turbos.finance/)
+- [flowx](https://flowx.finance) uvi-v2
+- [kriya](https://www.app.kriya.finance/spot/swap) uni-V2  
+- [suiswap](https://suiswap.app/) uni-V2
+- [abex](https://abex.fi/app/trade)
+- [bluemove](https://dex.bluemove.net) uni-v2
+- [bayswap](https://bayswap.io) uni-v2
+- [interest](https://www.interestprotocol.com/dapp/swap) uni-v2
+
+#### other defi
+- [typus](https://typus.finance/vault/)
+- [bucket](https://app.bucketprotocol.io)
+- [mole](https://mole.fi/)
+
 
 ### MEV SDKs
 
@@ -191,10 +220,6 @@ Products support sui
 - [BlueMove](https://sui.bluemove.net/)
 - [Hyperspace](https://sui.hyperspace.xyz/)
 
-### Explorer
-- [Sui Explorer](https://suiexplorer.com/) (official)
-- [SuiVision](https://suivision.xyz/)
-- [SuiScan](https://suiscan.xyz/mainnet/home)
 
 
 ## Code
