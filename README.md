@@ -53,12 +53,12 @@ The Sui platform is built on Sui Move, which is derived from the core [Move](htt
 
 ## Overview
 
-- [Installation](https://github.com/move-language/move/tree/main/language/tools/move-cli#installation)
-- [Problem Statement](https://github.com/mystenlabs/awesome-move/blob/main/docs/problem_statement.md#problem-statement)
+- [Installation](https://docs.sui.io/build/install)
+- [Learn](https://docs.sui.io/learn)
 
 
 ## Official github 
-- [mystenlabs](https://github.com/mystenlabs)
+- [Mysten Labs](https://github.com/mystenlabs)
 - [Sui Foundation](https://github.com/sui-foundation)
 - [Sui](https://github.com/mystenlabs/sui)
 - [move-language](https://github.com/move-language/move)
@@ -112,6 +112,9 @@ The Sui platform is built on Sui Move, which is derived from the core [Move](htt
 - [Suiet Wallet Kit](https://github.com/suiet/wallet-kit) - A package support all Sui wallets with customizable UI.
 - [Ethos Connect](https://github.com/EthosWallet/ethos-connect) - UI with built-in wallet adapter and Email option for supporting all wallets and wallet-less users on Sui.
 
+## Sui Faucet 
+ - [official](https://docs.sui.io/build/faucet)
+ - [community](https://github.com/uvd/sui-faucet)
 ## SDKs
 
 ### Sui SDKs
@@ -125,7 +128,7 @@ The Sui platform is built on Sui Move, which is derived from the core [Move](htt
 - [Java SDK](https://github.com/GrapeBaBa/sui4j) (community)
 - [Kotlin SDK](https://github.com/cosmostation/suikotlin) (community)
 - [C# SDK](https://github.com/naami-finance/SuiNet) (community)
-- [Sui Dart SDK(community)](https://github.com/mofalabs/sui)
+- [Sui Dart SDK](https://github.com/mofalabs/sui) (community)
 
 
 ## oracle
@@ -302,11 +305,6 @@ TBA
 - [Movey](https://www.movey.net/) - A crates.io-style repository of Move packages.
 
 
-
-### Sui Dapps SDKs
-
-- [OmniSwap-Sui-SDK](https://github.com/OmniBTC/OmniSwap-Sui-SDK) (community)
-
 ## Papers
 
 ### Language Design
@@ -331,20 +329,12 @@ TBA
 - [Formal Verification of Move Programs for the Libra Blockchain](http://www.fields.utoronto.ca/talks/Formal-verification-Move-programs-Libra-blockchain) - Talk from [@DavidLDill](https://github.com/DavidLDill) at the [Fields Institute Blockchain](http://www.fields.utoronto.ca/activities/seminar_series/blockchain-research-seminar-series) research seminar series.
 - [Move for the Masses](https://www.youtube.com/watch?v=b_2jZ4YEfWc) - Talk at the [Converge '22](https://converge.circle.com/event/4ea0d06f-3900-4b6d-a9cd-aeaedda9ef2e/summary).
 
-## Slides
-
-- [Move deep dive](https://docs.google.com/presentation/d/1Tb2iZD0xrQSlwXIJNL1djNYc0_p0szfB2STgURgHgls/edit?usp=sharing)
-- [Move overview](https://docs.google.com/presentation/d/1gU-M42Juz7ARc61unPXphJ_BX1OlQrBwR1VdaPT4M5w/edit?usp=sharing) - Slides from [Reasoning About Financial Systems](https://reasoningaboutfinancialsystems.org/) workshop at [SBC '22](https://cbr.stanford.edu/sbc22/).
 
 ## Podcasts
 
 - [Move and Sui with Sam Blackshear from Mysten Labs](https://zeroknowledge.fm/228-2/)
 - [Move AMA covering Move origin story](https://twitter.com/i/spaces/1jMKgepNOleJL)
 
-## Blog Posts
-
-- [Comparing Move and Rust smart contract development](https://medium.com/@kklas/smart-contract-development-move-vs-rust-4d8f84754a8f)
-- [Comparing Diem-style Move and Sui Move](https://sui.io/resources-move/why-we-created-sui-move)
 
 ## Security
 
