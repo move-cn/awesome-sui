@@ -16,6 +16,10 @@ The Sui platform is built on Sui Move, which is derived from the core [Move](htt
 - [Books](#books)
 - [Tutorials](#tutorials)
 - [Community](#community)
+- [RPC](#rpc)
+  - [mainnet](#mainnet-rpc)
+  - [testnet](#testnet-rpc)
+  - [devnet](#devnet-rpc)
 - [Products](#products)
 - [Code](#code)
   - [Fungible Tokens](#fungible-tokens)
@@ -114,6 +118,47 @@ The Sui platform is built on Sui Move, which is derived from the core [Move](htt
 - [Kotlin SDK](https://github.com/cosmostation/suikotlin) (community)
 - [C# SDK](https://github.com/naami-finance/SuiNet) (community)
 - [Sui Dart SDK(community)](https://github.com/mofalabs/sui)
+
+
+## RPC
+
+### mainnet RPC
+
+- https://rpc.mainnet.sui.io
+- https://fullnode.mainnet.sui.io
+- https://wallet-rpc.mainnet.sui.io
+- https://explorer-rpc.mainnet.sui.io
+- https://sui-rpc-mainnet.testnet-pride.com
+- https://sui-mainnet.nodeinfra.com
+- https://mainnet-rpc.sui.chainbase.online
+- https://sui-mainnet-ca-1.cosmostation.io/
+- https://sui-mainnet-ca-2.cosmostation.io/
+- https://sui-mainnet-eu-1.cosmostation.io/
+- https://sui-mainnet-eu-2.cosmostation.io/
+- https://sui-mainnet-eu-3.cosmostation.io/
+- https://sui-mainnet-eu-4.cosmostation.io/
+- https://sui-mainnet-us-1.cosmostation.io/
+- https://sui-mainnet-us-2.cosmostation.io/
+- https://mainnet.sui.rpcpool.com
+- https://rpc-mainnet.suiscan.xyz
+- https://sui.publicnode.com
+- https://sui-mainnet-rpc.allthatnode.com/  
+- https://sui-mainnet-rpc-germany.allthatnode.com/
+- https://sui-mainnet-rpc-korea.allthatnode.com/
+- https://sui1mainnet-rpc.chainode.tech/
+- https://sui-rpc-mainnet.brightlystake.com/
+
+### testnet RPC
+- https://rpc.testnet.sui.io
+- https://fullnode.testnet.sui.io
+- https://wallet-rpc.testnet.sui.io
+- https://explorer-rpc.testnet.sui.io
+- https://sui-testnet.nodeinfra.com
+- https://testnet-rpc.sui.chainbase.online
+
+### devnet RPC
+- https://rpc.devnet.sui.io
+- https://fullnode.devnet.sui.io
 
 
 ## Products
