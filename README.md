@@ -298,7 +298,8 @@ The ability to separate blockchain-specific framework logic from the generic fun
 
 ## IDEs
 
-TBA
+- [Sui Move Analyzer](https://movebit.xyz/analyzer) - A Visual Studio Code plugin that enhances the development experience of Move and Sui Move ([source code](https://github.com/movebit/sui-move-analyzer)).
+- [Move Vim](https://github.com/tzakian/move.vim) - Maintained by [@tzakian](https://github.com/tzakian/).
 
 ## Package Managers
 
